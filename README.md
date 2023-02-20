@@ -1,5 +1,5 @@
 # Word Puzzle Solver
-#### (September 24, 2022)
+#### (Febuary 1, 2023)
 #### James E. Sweat III
 
 This program takes a word search puzzle and a list of words to find, and outputs the location of each word in the puzzle.
