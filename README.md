@@ -1,4 +1,4 @@
-# Word Puzzle Solver
+# Crossword Analyzer
 #### (Febuary 1, 2023)
 #### James E. Sweat III
 
@@ -29,6 +29,15 @@ cd Word-Puzzle-Solver
 3. Compile the program with Makefile.
 ``` 
 Make
+```
+Which should excute and output:
+```
+clang++ -Wall -O2  -c hashTable.cpp
+clang++ -Wall -O2  -c getWordInGrid.cpp
+clang++ -Wall -O2  -c wordPuzzle.cpp
+clang++ -Wall -O2  -c primenumber.cpp
+clang++ -Wall -O2  -c timer.cpp
+clang++ -Wall -O2  -g hashTable.o getWordInGrid.o wordPuzzle.o primenumber.o timer.o -o a.out
 ```
 ### Usage
 
@@ -62,3 +71,4 @@ N (2, 1): nab
 4 words found
 Found all words in 0.0158356 seconds
 ```
+
