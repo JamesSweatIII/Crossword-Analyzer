@@ -1,1 +1,1 @@
-# Word-Puzzle-Solver
+# Word Puzzle Solver
